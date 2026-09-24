@@ -1,0 +1,20 @@
+DELETE FROM role_permission
+WHERE role_id IN (9001, 9002);
+
+DELETE FROM user_role
+WHERE user_id IN (9201, 9202, 9203);
+
+DELETE FROM file_info
+WHERE id IN (9301, 9302);
+
+DELETE FROM user
+WHERE id IN (9201, 9202, 9203);
+
+DELETE FROM permission
+WHERE id IN (9101, 9102, 9103, 9104, 9105);
+
+DELETE FROM role
+WHERE id IN (9001, 9002);
+
+DELETE FROM employee
+WHERE id = 9401;
